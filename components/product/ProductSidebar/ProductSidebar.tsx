@@ -53,12 +53,14 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
       />
       <div className="flex flex-row justify-between items-center">
         <Rating value={4} />
-        <div className="text-accent-6 pr-1 font-medium text-sm">36 reviews</div>
+        <div className="text-accent-6 pr-1 font-medium text-sm">
+          {Math.ceil(Math.random() * 50)} đánh giá
+        </div>
       </div>
       <div>
         {process.env.COMMERCE_CART_ENABLED && (
           <Button
-            aria-label="Add to Cart"
+            aria-label="Thêm vào giỏ"
             type="button"
             className={s.button}
             onClick={addToCart}
@@ -67,19 +69,18 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
           >
             {variant?.availableForSale === false
               ? 'Not Available'
-              : 'Add To Cart'}
+              : 'Thêm vào giỏ'}
           </Button>
         )}
       </div>
       <div className="mt-6">
-        <Collapse title="Care">
-          This is a limited edition production run. Printing starts when the
-          drop ends.
+        <Collapse title="Ưu đãi">
+          • Bảo hành sản phẩm trong vòng 1 năm kể từ ngày giao hàng. <br></br>•
+          Tụi tui sẽ rất vui nếu được bạn ủng hộ cửa hàng.
         </Collapse>
-        <Collapse title="Details">
-          This is a limited edition production run. Printing starts when the
-          drop ends. Reminder: Bad Boys For Life. Shipping may take 10+ days due
-          to COVID-19.
+        <Collapse title="Lưu ý khi giao hàng">
+          Do diễn biến phức tạp của dịch COVID-19, thời gian giao hàng có thể
+          chậm trễ hơn khoảng 10-15 ngày so với thời gian dự kiến.
         </Collapse>
       </div>
     </div>

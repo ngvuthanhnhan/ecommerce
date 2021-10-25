@@ -80,7 +80,7 @@ const WishlistCard: FC<Props> = ({ product }) => {
           <Text html={product.description} />
         </div>
         <Button
-          aria-label="Add to Cart"
+          aria-label="Thêm vào giỏ"
           type="button"
           className={
             'py-1 px-3 border border-secondary rounded-md shadow-sm hover:bg-primary-hover'
@@ -88,7 +88,7 @@ const WishlistCard: FC<Props> = ({ product }) => {
           onClick={addToCart}
           loading={loading}
         >
-          Add to Cart
+          Thêm vào giỏ
         </Button>
       </div>
       <div className="col-span-2 flex flex-col justify-between">

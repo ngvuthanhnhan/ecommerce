@@ -1,20 +1,20 @@
 {
-  "title": "ACME Storefront | Powered by Next.js Commerce",
-  "titleTemplate": "%s - ACME Storefront",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "title": "Tụi tui bán mũ",
+  "titleTemplate": "ĐN^3S Store - %s",
+  "description": "ĐN^3S Store - https://www.nextjs.org/commerce",
   "openGraph": {
-    "title": "ACME Storefront | Powered by Next.js Commerce",
-    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+    "title": "ĐN^3S Store | Powered by Next.js Commerce",
+    "description": "ĐN^3S Store - https://www.nextjs.org/commerce",
     "type": "website",
     "locale": "en_IE",
     "url": "https://nextjs.org/commerce",
-    "site_name": "Next.js Commerce",
+    "site_name": "ĐN^3S Store",
     "images": [
       {
         "url": "/card.png",
         "width": 800,
         "height": 600,
-        "alt": "Next.js Commerce"
+        "alt": "ĐN^3S Store"
       }
     ]
   },
