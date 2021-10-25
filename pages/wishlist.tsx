@@ -58,10 +58,10 @@ export default function Wishlist() {
                 <Heart className="absolute" />
               </span>
               <h2 className="pt-6 text-2xl font-bold tracking-wide text-center">
-                Your wishlist is empty
+                Wishlist của bạn đang trống
               </h2>
               <p className="text-accent-6 px-10 text-center pt-2">
-                Biscuit oat cake wafer icing ice cream tiramisu pudding cupcake.
+                Khám phá cửa hàng và tìm những chiếc nón phù hợp nhất ngay thôi!
               </p>
             </div>
           ) : (

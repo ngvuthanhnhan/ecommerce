@@ -54,7 +54,7 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
       <div className="flex flex-row justify-between items-center">
         <Rating value={4} />
         <div className="text-accent-6 pr-1 font-medium text-sm">
-          {Math.ceil(Math.random() * 50)} đánh giá
+          32 đánh giá
         </div>
       </div>
       <div>
