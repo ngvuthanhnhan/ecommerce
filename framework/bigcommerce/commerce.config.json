@@ -2,6 +2,6 @@
   "provider": "bigcommerce",
   "features": {
     "wishlist": false,
-    "customerAuth": false
+    "customerAuth": true
   }
 }
